@@ -29,6 +29,7 @@ dependencies[] = page_manager
 dependencies[] = path
 dependencies[] = pathauto
 dependencies[] = rdf
+dependencies[] = rules
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = token
