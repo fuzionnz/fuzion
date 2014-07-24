@@ -3,6 +3,7 @@ description = Fuzion installation profile with sane defaults for modules and oth
 core = 7.x
 
 dependencies[] = admin_menu
+dependencies[] = archimedes
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
@@ -31,6 +32,7 @@ dependencies[] = pathauto
 dependencies[] = rdf
 dependencies[] = rules
 dependencies[] = strongarm
+dependencies[] = syslog
 dependencies[] = taxonomy
 dependencies[] = token
 dependencies[] = search
