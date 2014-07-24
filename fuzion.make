@@ -14,7 +14,6 @@ projects[] = rules
 projects[] = strongarm
 projects[] = token
 projects[] = views
-projects[] = views_ui
 projects[] = webform
 projects[] = wysiwyg
 
