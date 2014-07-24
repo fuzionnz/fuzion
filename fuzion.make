@@ -3,6 +3,8 @@ core = 7.x
 
 projects[drupal] = 7.29
 
+defaults[projects][subdir] = ../../../sites/all/modules/
+
 projects[] = admin_menu
 projects[] = ctools
 projects[] = date
