@@ -32,6 +32,7 @@ projects[] = token
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = webform
+projects[] = webform_civicrm
 projects[] = webform_layout
 projects[] = wysiwyg
 
