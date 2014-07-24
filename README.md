@@ -19,7 +19,7 @@ Create a stub.make with the following contents. (If you're on a Fuzion server, c
     projects[fuzion][download][url] = git@github.com:fuzionnz/fuzion.git
     projects[fuzion][download][revision] = 7.x-1.x
 
-Run `drush make stub.make` (or `drush make /etc/drush/fuzion.make`). The output should look something like this.
+Run `drush make stub.make` (or `drush make /etc/drush/fuzion.make`). The output should look [something like this](https://gist.github.com/xurizaemon/91f10c44ce712a6b1663).
 
 Drush make has lots of options for you!
 
