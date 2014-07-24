@@ -7,7 +7,6 @@ projects[] = date
 projects[] = entity
 projects[] = features
 projects[] = libraries
-projects[] = page_manager
 projects[] = pathauto
 projects[] = rules
 projects[] = strongarm
