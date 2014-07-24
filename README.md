@@ -24,3 +24,13 @@ Run `drush make stub.make` (or `drush make /etc/drush/fuzion.make`). The output 
 Drush make has lots of options for you!
 
 * If this site is a development copy from which you'll want to commit changes back upstream, use `--working-copy` to retain the Git repository information in the downloaded projects.
+
+Drush QD
+--------
+
+TODO - Document using this makefile with `drush qd` to quickly perform all steps of creating a site.
+
+Enabling CiviCRM
+----------------
+
+Once Drupal is fired up, you can run the CiviCRM installer at `sites/all/modules/civicrm/install/index.php` to enable CiviCRM as well.

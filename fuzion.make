@@ -3,6 +3,7 @@ core = 7.x
 
 projects[drupal] = 7.29
 
+; It looks funky, but it means we can stick to using sites/all/modules ...
 defaults[projects][subdir] = ../../../sites/all/modules/
 
 projects[] = admin_menu
