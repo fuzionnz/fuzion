@@ -6,7 +6,7 @@ Drupal installation profile for Fuzion sites.
 Using this profile
 ------------------
 
-Create a stub.make with the following contents. (If you're on a Fuzion server, check /etc/drush/fuzion.make for this file.)
+Create a stub.make with the following contents. (If you're on a Fuzion server, check `/etc/drush/fuzion.make` for this file.)
 
     api = 2
     core = 7.x
