@@ -10,7 +10,6 @@ projects[] = libraries
 projects[] = pathauto
 projects[] = rules
 projects[] = strongarm
-projects[] = taxonomy
 projects[] = token
 projects[] = views
 projects[] = views_ui
