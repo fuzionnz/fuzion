@@ -16,7 +16,6 @@ projects[] = imce
 projects[] = libraries
 projects[] = nodewords
 projects[] = pathauto
-projects[] = redirect
 projects[] = token
 projects[] = views
 projects[] = views_bulk_operations
