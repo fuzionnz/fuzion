@@ -25,6 +25,7 @@ projects[] = mimemail
 projects[] = node_clone
 projects[] = pathauto
 projects[] = redirect
+projects[] = reroute_email
 projects[] = rules
 projects[] = smtp
 projects[] = strongarm
