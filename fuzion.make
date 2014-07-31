@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.29
+projects[drupal] = 7.30
 
 ; It looks funky, but it means we can stick to using sites/all/modules ...
 defaults[projects][subdir] = ../../../sites/all/modules/
