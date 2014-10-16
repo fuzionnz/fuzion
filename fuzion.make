@@ -6,6 +6,9 @@ projects[drupal] = 7.30
 ; It looks funky, but it means we can stick to using sites/all/modules ...
 defaults[projects][subdir] = ../../../sites/all/modules/
 
+projects[views][version] = 3.8
+projects[views][patch][1036962] = https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch
+
 projects[] = admin_menu
 projects[] = civicrm_entity
 projects[] = coffee
@@ -31,7 +34,6 @@ projects[] = rules
 projects[] = smtp
 projects[] = strongarm
 projects[] = token
-projects[] = views
 projects[] = views_bulk_operations
 projects[] = webform
 projects[] = webform_civicrm
