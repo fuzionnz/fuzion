@@ -25,6 +25,7 @@ dependencies[] = image
 dependencies[] = libraries
 dependencies[] = list
 dependencies[] = menu
+dependencies[] = module_filter
 dependencies[] = number
 dependencies[] = options
 dependencies[] = page_manager
