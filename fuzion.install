@@ -241,4 +241,9 @@ function fuzion_install() {
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
   variable_set('environment', 'development');
+  
+  // Send notifications only for 'security' updates.
+  variable_set('update_notification_threshold', 'security');
+  // Send notifications to admin@fuzion.co.nz
+  variable_set('update_notify_emails', array('admin@fuzion.co.nz'));
 }
