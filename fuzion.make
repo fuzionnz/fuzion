@@ -59,3 +59,6 @@ projects[archimedes][download][type] = git
 projects[archimedes][download][url] = git@github.com:xurizaemon/archimedes.git
 projects[archimedes][download][revision] = 7.x-1.x
 
+projects[password_generator][type] = module
+projects[password_generator][download][type] = git
+projects[password_generator][download][url] = git@git.fuzion.co.nz:projects/password_generator.git
