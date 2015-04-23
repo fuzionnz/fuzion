@@ -3,7 +3,7 @@ core = 7.x
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = file
-projects[civicrm][download][url] = https://download.civicrm.org/civicrm-4.4.11-drupal.tar.gz
+projects[civicrm][download][url] = https://download.civicrm.org/civicrm-4.4.14-drupal.tar.gz
 projects[civicrm][directory_name] = civicrm
 
 projects[civicrm-core][type] = module
