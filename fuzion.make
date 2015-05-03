@@ -1,13 +1,13 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.34
+projects[drupal] = 7.36
 projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/xurizaemon/ae4a5fae6255b1538a9c/raw/98ab9130004d6af1ad55c1d9cfe6c90ee109df35/drupal-gitignore.patch
 
 ; It looks funky, but it means we can stick to using sites/all/modules ...
 defaults[projects][subdir] = ../../../sites/all/modules/
 
-projects[views][version] = 3.8
+projects[views][version] = 3.11
 projects[views][patch][1036962] = https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch
 
 projects[] = admin_menu
