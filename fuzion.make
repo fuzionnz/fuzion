@@ -7,7 +7,7 @@ projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/xurizaem
 ; It looks funky, but it means we can stick to using sites/all/modules ...
 defaults[projects][subdir] = ../../../sites/all/modules/
 
-projects[views][version] = 3.8
+projects[views][version] = 3.11
 projects[views][patch][1036962] = https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch
 
 projects[] = admin_menu
@@ -59,3 +59,6 @@ projects[archimedes][download][type] = git
 projects[archimedes][download][url] = git@github.com:xurizaemon/archimedes.git
 projects[archimedes][download][revision] = 7.x-1.x
 
+projects[password_generator][type] = module
+projects[password_generator][download][type] = git
+projects[password_generator][download][url] = git@git.fuzion.co.nz:projects/password_generator.git
