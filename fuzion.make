@@ -20,6 +20,7 @@ projects[] = entityreference
 projects[] = environment
 projects[] = environment_indicator
 projects[] = features
+projects[] = globalredirect
 projects[] = google_analytics
 projects[] = imce
 projects[] = htmlmail
