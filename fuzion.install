@@ -173,6 +173,20 @@ function fuzion_install() {
   // Allow visitor account creation with administrative approval.
   variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
 
+  // Configurate Archimedes out of the box.
+  variable_set('archimedes_send_method', 'postXML');
+  variable_set('archimedes_server_email', '');
+  variable_set('archimedes_server_url', 'https://archimedes.fuzion.co.nz/archimedes/update');
+  variable_set('archimedes_use_unsafe_collection', TRUE);
+  variable_set('archimedes_server_key', "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArak56espAMB0ud1e4VsF\nQYid9NxuxliQcrT2Pp6Uyjjp2l0zKTIsLNbjvRi+qFuba11Iya6yVEEYbWD/J6SQ\noqCzYJGryoeCYeJ/Az6tOTNQF906A8jL7Q5o64+BFiAmxkJEcBn8DY7qWsNw6159\nzFUK0f5uU9idXR/o2bCAMaSyT3E4rodmbQR+zBrdIkDhMeelXnVYCdcUxI8j9ugc\n2spo6Jo0H5nPK0Sa0i8bm7u3CmhNamuMMXWSUG/xCz5ZanTUZJdveZt8axmBTVSh\nKtx+UZZycjLw1XuBzF8fbFF7DsYcX7W3T/pmX8X7qcRviFUrc/Q839Q/zlNfQGid\nwwIDAQAB\n-----END PUBLIC KEY-----");
+
+  // Configure update notices
+  variable_set('update_notification_threshold', 'security');
+  variable_set('update_notify_emails', array('admin+turkey@fuzion.co.nz'));
+
+  // Deny access to builtin download-and-modify functionality.
+  variable_set('allow_authorize_operations', FALSE);
+
   // Enable default permissions for system roles.
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments'));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval'));

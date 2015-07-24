@@ -43,7 +43,4 @@ dependencies[] = views_ui
 dependencies[] = webform
 dependencies[] = wysiwyg
 
-;; Feature modules
-dependencies[] = text_formats_and_wysiwyg
-
 files[] = fuzion.profile
