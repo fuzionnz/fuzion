@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.38
+projects[drupal] = 7.41
 projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
 projects[views][version] = 3.11
