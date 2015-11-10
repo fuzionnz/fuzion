@@ -5,7 +5,6 @@ projects[drupal] = 7.41
 projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
 projects[views][version] = 3.13
-projects[views][patch][1036962] = https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch
 
 projects[] = admin_menu
 projects[] = civicrm_entity
