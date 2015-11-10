@@ -27,6 +27,7 @@ projects[] = metatag
 projects[] = mimemail
 projects[] = module_filter
 projects[] = node_clone
+projects[] = nocurrent_pass
 projects[] = pathauto
 projects[] = redirect
 projects[] = reroute_email
