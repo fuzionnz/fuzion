@@ -40,10 +40,10 @@ projects[] = webform_civicrm
 projects[] = webform_layout
 projects[] = wysiwyg
 
-projects[civicrm-core][type] = module
-projects[civicrm-core][download][type] = url
-projects[civicrm-core][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.10.0/civicrm-4.6.10-drupal-nightly.tar.gz
-projects[civicrm-core][directory_name] = civicrm
+projects[civicrm][type] = module
+projects[civicrm][download][type] = get
+projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.10.0/civicrm-4.6.10-drupal-nightly.tar.gz
+projects[civicrm][directory_name] = civicrm
 
 projects[archimedes][type] = module
 projects[archimedes][download][type] = get
