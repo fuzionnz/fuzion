@@ -4,7 +4,7 @@ core = 7.x
 projects[drupal] = 7.41
 projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
-projects[views][version] = 3.11
+projects[views][version] = 3.13
 projects[views][patch][1036962] = https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch
 
 projects[] = admin_menu
@@ -42,20 +42,17 @@ projects[] = webform_layout
 projects[] = wysiwyg
 
 projects[civicrm-core][type] = module
-projects[civicrm-core][download][type] = git
-projects[civicrm-core][download][url] = git@github.com:fuzionnz/civicrm-core.git
+projects[civicrm-core][download][type] = url
+projects[civicrm-core][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.10.0/civicrm-4.6.10-drupal-nightly.tar.gz
 projects[civicrm-core][directory_name] = civicrm
 
-projects[civicrm-drupal][type] = module
-projects[civicrm-drupal][download][type] = git
-projects[civicrm-drupal][download][url] = git@github.com:fuzionnz/civicrm-drupal.git
-projects[civicrm-drupal][directory_name] = civicrm/drupal
-projects[civicrm-drupal][overwrite] = true
-
 projects[archimedes][type] = module
-projects[archimedes][download][type] = git
-projects[archimedes][download][url] = git@github.com:xurizaemon/archimedes.git
-projects[archimedes][download][revision] = 7.x-1.x
+projects[archimedes][download][type] = get
+projects[archimedes][download][url] = https://projects.fuzion.co.nz/sites/default/files/releases/archimedes-7.x-1.0.tar.gz
+
+projects[archimedes_extras][type] = module
+projects[archimedes_extras][download][type] = get
+projects[archimedes_extras][download][url] = https://projects.fuzion.co.nz/sites/default/files/releases/archimedes_extras-7.x-1.2.tar.gz
 
 projects[password_generator][type] = module
 projects[password_generator][download][type] = git
