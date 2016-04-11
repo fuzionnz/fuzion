@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.41
+projects[drupal] = 7.43
 projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
 projects[views][version] = 3.13
@@ -43,7 +43,7 @@ projects[] = wysiwyg
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.10.0/civicrm-4.6.10-drupal-nightly.tar.gz
+projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.14.2/civicrm-4.6.14.2-drupal-nightly.tar.gz
 projects[civicrm][directory_name] = civicrm
 
 projects[archimedes][type] = module
