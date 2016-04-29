@@ -4,7 +4,8 @@ core = 7.x
 projects[drupal] = 7.43
 projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
-projects[views][version] = 3.13
+; It looks funky, but it means we can stick to using sites/all/modules ...
+defaults[projects][subdir] = ../../../sites/all/modules/
 
 projects[] = admin_menu
 projects[] = civicrm_entity
@@ -35,6 +36,7 @@ projects[] = rules
 projects[] = smtp
 projects[] = strongarm
 projects[] = token
+projects[] = views
 projects[] = views_bulk_operations
 projects[] = webform
 projects[] = webform_civicrm
