@@ -45,7 +45,7 @@ projects[] = wysiwyg
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.16.0/civicrm-4.6.16.0-drupal-nightly.tar.gz
+projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.16.0/civicrm-4.6.18.0-drupal-nightly.tar.gz
 projects[civicrm][directory_name] = civicrm
 
 projects[archimedes][type] = module
