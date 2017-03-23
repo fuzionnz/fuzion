@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.53
+projects[drupal] = 7.54
 ; projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
 ; It looks funky, but it means we can stick to using sites/all/modules ...
@@ -16,7 +16,6 @@ projects[] = entity
 projects[] = entityreference
 projects[] = environment
 projects[] = environment_indicator
-projects[] = features
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = imce
@@ -45,7 +44,7 @@ projects[] = wysiwyg
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.6.25.1/civicrm-4.6.25.1-drupal-nightly.tar.gz
+projects[civicrm][download][url] = http://dist.fudev.co.nz/by-date/latest/4.7.17.0/civicrm-4.7.17.0-drupal-nightly.tar.gz
 projects[civicrm][directory_name] = civicrm
 
 projects[archimedes][type] = module
