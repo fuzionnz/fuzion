@@ -29,7 +29,6 @@ projects[] = mimemail
 projects[] = module_filter
 projects[] = node_clone
 projects[] = nocurrent_pass
-projects[] = options_elements
 projects[] = pathauto
 projects[] = redirect
 projects[] = reroute_email
