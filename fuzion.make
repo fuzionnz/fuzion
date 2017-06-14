@@ -20,6 +20,7 @@ projects[] = features
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = imce
+projects[] = imce_wysiwyg
 projects[] = htmlmail
 projects[] = libraries
 projects[] = mailsystem
