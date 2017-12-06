@@ -39,6 +39,7 @@ projects[] = rules
 projects[] = smtp
 projects[] = stage_file_proxy
 projects[] = strongarm
+projects[[ = styleguide
 projects[] = token
 projects[] = views
 projects[] = views_bulk_operations
