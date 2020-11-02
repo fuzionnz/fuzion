@@ -50,7 +50,7 @@ projects[] = wysiwyg
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = https://download.civicrm.org/civicrm-4.7.20-drupal.tar.gz
+projects[civicrm][download][url] = https://download.civicrm.org/civicrm-5.30.1-drupal.tar.gz
 projects[civicrm][directory_name] = civicrm
 
 projects[archimedes][type] = module
