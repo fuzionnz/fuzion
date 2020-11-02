@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.59
+projects[drupal] = 7.73
 ; projects[drupal][patch][gitignore] = https://gist.githubusercontent.com/eileenmcnaughton/f1a68be463b9fa68e7d5/raw/b3b80561350d040bc0d0e79e293afda73fde213b/drupal-gitignore.patch
 
 ; It looks funky, but it means we can stick to using sites/all/modules ...
