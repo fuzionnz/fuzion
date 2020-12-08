@@ -8,8 +8,8 @@ projects[drupal] = 7.73
 ; defaults[projects][subdir] = ../../../sites/all/modules/
 
 projects[] = admin_menu
+projects[] = bootstrap
 projects[] = civicrm_entity
-projects[] = coffee
 projects[] = ctools
 projects[] = date
 projects[] = devel
@@ -17,9 +17,7 @@ projects[] = entity
 projects[] = entityreference
 projects[] = environment
 projects[] = environment_indicator
-projects[] = features
 projects[] = globalredirect
-projects[] = google_analytics
 projects[] = imce
 projects[] = imce_wysiwyg
 projects[] = htmlmail
@@ -50,7 +48,7 @@ projects[] = wysiwyg
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = https://download.civicrm.org/civicrm-5.30.1-drupal.tar.gz
+projects[civicrm][download][url] = https://download.civicrm.org/civicrm-5.32.1-drupal.tar.gz
 projects[civicrm][directory_name] = civicrm
 
 projects[archimedes][type] = module
